@@ -1,0 +1,104 @@
+/* === IMPORTAÇÃO DE FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+/*
+Follow - font-family: "Fredoka", sans-serif;
+Medu - Oswald
+*/
+/* ==========================*/
+
+/* ==== FORMATAÇÃO GERAL === */
+html{
+    font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
+    font-family: "Epilogue", sans-serif;
+}
+h1{
+    font-family: "Nunito", sans-serif;
+}
+h2,h3,h4,h5,h6, p{
+    font-family: "Nunito", sans-serif;
+}
+
+header nav ol li{
+    font-size: medium;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    margin: 1vw 0vw 3vw 0vw;
+    
+}
+header nav ol li span {
+    color: white;
+    background-color: #FFC222;
+    padding: 1vw 6vw 1vw 6vw;
+    border-radius: 1vw;
+    display: inline-block;
+}
+section.banner{
+     background-color: #fadee3;
+     padding: 2rem;
+}
+.banner h2{
+    font-weight: 700;
+    font-size: 6vw;
+}
+.banner p{
+    font-size: small;
+}
+.banner p button{
+    color: white;
+    background-color:#ED274B;
+    font-weight: 700;
+    padding: 1vw 3vw 1vw 3vw;
+    border-radius: 3vw;
+    display: inline-block;
+    margin: 2vw 0vw 0vw 0vw;
+}
+.popular{
+    background-color: #d4e5ec;
+}
+.popular h4{
+   font-family: "Oswald", sans-serif;
+   color: #12ce32;
+   font-size: smaller;
+}
+.popular h3{
+    font-family: "Oswald", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.popular ol li{
+    background-color: white;
+    margin: 12vw;
+    border-radius: 2vw;
+    text-align: center;
+
+}
+.popular ol li p{
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+}
+.popular ol li span{
+    font-size: smaller;
+    color: #FFC222;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+}
+
+
+/* MEDIA QUERY - DESKTOP */
+@media  screen and (min-width: 600px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header nav ol {
+        display: flex;
+        gap: 2vw;
+        align-items: center;
+    }
+    .banner{
+        display: flex;
+    }
+
+
+}
